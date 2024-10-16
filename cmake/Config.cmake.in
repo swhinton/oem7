@@ -1,0 +1,3 @@
+@PACKAGE_INIT@
+include("${CMAKE_CURRENT_LIST_DIR}/novatelOem7Lib.cmake")
+check_required_components("novatelOem7Lib")
