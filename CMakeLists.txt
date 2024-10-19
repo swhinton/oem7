@@ -37,6 +37,11 @@ endif ()
 
 target_link_libraries(${PROJECT_NAME} ${LIB_DEPS})
 
+target_include_directories(${PROJECT_NAME}
+        INTERFACE
+        $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
 add_library(${PROJECT_NAME}::${PROJECT_NAME} ALIAS ${PROJECT_NAME})
 
 # =============================
