@@ -610,7 +610,8 @@ enum class MessageId : uint16_t {
     SBAS34 = 990,                         // LOG
     SBAS35 = 991,                         // LOG
     SBAS45 = 993,                         // LOG
-    SETCANNAME = 1091                     // COMMAND
+    SETCANNAME = 1091,                    // COMMAND
+    INVALID = 0xFFFF
 };
 
 #endif
