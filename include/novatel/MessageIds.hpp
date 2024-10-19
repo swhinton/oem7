@@ -17,8 +17,7 @@
  * OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef NOVATEL_MESSAGE_IDS_HPP
-#define NOVATEL_MESSAGE_IDS_HPP
+#pragma once
 
 namespace novatel::oem7 {
 enum class MessageId : uint16_t {
@@ -617,5 +616,3 @@ enum class MessageId : uint16_t {
   INVALID = 0xFFFF
 };
 }
-
-#endif

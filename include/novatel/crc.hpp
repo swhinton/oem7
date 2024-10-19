@@ -17,8 +17,7 @@
  * OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef NOVATEL_CRC_HPP
-#define NOVATEL_CRC_HPP
+#pragma once
 
 #include <cstdint>
 
@@ -58,5 +57,3 @@ inline CRC_t CalculateBlockCRC32(unsigned long ulCount, unsigned char *ucBuffer)
   return ulCRC;
 }
 }  // namespace novatel::oem7
-
-#endif  // CRC_HPP
